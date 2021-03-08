@@ -1,6 +1,7 @@
 import javax.xml.stream.events.StartDocument;
 
 public class Empregado{
+    private int tipo;
     private String nome;
     private String idade;
     private double salario;
@@ -29,9 +30,13 @@ public class Empregado{
     }
 
     public String getNome() {
+    
         return nome;
     }
-
+    public int getTipo() {
+    
+        return tipo;
+    }
     public void setIdade(String idade) {
         this.idade = idade;
     }
@@ -39,4 +44,8 @@ public class Empregado{
     public void setNome(String nome) {
         this.nome = nome;
     }
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+    
 }
