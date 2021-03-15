@@ -1,9 +1,8 @@
-import javax.xml.stream.events.StartDocument;
 
 public class Empregado{
     private int tipo;
+    private int idade;
     private String nome;
-    private String idade;
     private double salario;
     private double comissao;
     private double bonus;
@@ -33,7 +32,7 @@ public class Empregado{
     public double getComissao() {
         return comissao;
     }
-    public String getIdade() {
+    public int getIdade() {
         return idade;
     }
     public String getNome() {
@@ -53,7 +52,7 @@ public class Empregado{
     public void setBonus(double bonus) {
         this.bonus = bonus;
     }
-    public void setIdade(String idade) {
+    public void setIdade(int idade) {
         this.idade = idade;
     }
 
